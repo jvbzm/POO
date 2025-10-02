@@ -31,7 +31,6 @@ public class Caneta {
         this.tampado = false;
     }
 
-    // Método main dentro da própria classe
     public static void main(String[] args) {
         Caneta c1 = new Caneta();
 
