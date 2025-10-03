@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Caneta {
     String modelo;
     String cor;
@@ -7,7 +5,7 @@ public class Caneta {
     int carga;
     boolean tampado;
 
-    void status(){
+    void status() {
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Uma caneta " + this.cor);
         System.out.println("Ponta: " + this.ponta);
@@ -15,19 +13,19 @@ public class Caneta {
         System.out.println("Está tampado? " + this.tampado);
     }
     
-    void rabiscar(){
-        if(this.tampado){
+    void rabiscar() {
+        if (this.tampado) {
             System.out.println("Não posso rabiscar, a caneta está tampada!");
         } else {
             System.out.println("A caneta está rabiscando...");
         }
     }
 
-    void tampar(){
+    void tampar() {
         this.tampado = true;
     }
 
-    void destampar(){
+    void destampar() {
         this.tampado = false;
     }
 
