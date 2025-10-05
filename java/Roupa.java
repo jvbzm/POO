@@ -39,7 +39,9 @@ public class Roupa {
             String entrada = sc.nextLine();
 
             if (r.setTamanho(entrada)) {
+
                 break;
+                
             }
         }
 
