@@ -76,6 +76,7 @@ class Conta {
     }
 }
 
+public class Contabanco {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Locale.setDefault(Locale.US);
@@ -113,3 +114,4 @@ class Conta {
         }
         scanner.close();
     }
+}
